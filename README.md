@@ -1,8 +1,10 @@
-# Code to reproduce analyses from Luyckx et al. (2019) and experiment files.
+# Code to reproduce analyses from [Luyckx et al., 2019, eLife] and experiment files.
 
 Structure:
 
 * Analysis
+  - Before running analyses, change the path names in 'Bandit_load' and 'Numbers_load'
+
   - Fig*: reproduces the mentioned figure
   - Preprocessing_pipeline_*: pipelines to preprocess raw EEG data
   - Other auxiliary files
@@ -24,8 +26,9 @@ Structure:
   - Empty folder that will contain subfolder for generated figures
 
 * Functions
-  - cbrewer: extra color maps
+  - cbrewer: extra color maps (https://uk.mathworks.com/matlabcentral/fileexchange/34087-cbrewer-colorbrewer-schemes-for-matlab)
   - EEG_preproc_curry: functions to perform preprocessing
+  - hbcl_plugin: toolbox to plot better looking scalp plots (http://education.msu.edu/kin/hbcl/software.html)
   - myfunctions: personally written auxiliary functions
   - rsa: extra functions to perform RSA
   - thirdparty: other functions necessary to run analyses
