@@ -1,4 +1,4 @@
-# Code to reproduce analyses from [Luyckx et al., 2019, eLife] and experiment files.
+# Code to reproduce analyses from [Luyckx et al., 2019, eLife, https://doi.org/10.7554/eLife.42816] and experiment files.
 
 Structure:
 
